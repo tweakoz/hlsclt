@@ -9,6 +9,7 @@ import click
 import os
 import imp
 from glob import glob
+from .classes import ConfigError
 
 ### Function Definitions ###
 # Function to generate the default config dicttionary
